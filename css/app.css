@@ -1,0 +1,389 @@
+
+#radius-ios {
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.app-layout .app-header {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e6e6e7
+}
+.app-layout .app-caption {
+    border-bottom: medium none;
+    left: 140px;
+    margin-top: 15px;
+    padding-bottom: 30px;
+    position: absolute;
+    top: 0px
+}
+.page-section{
+    position: absolute;
+    margin: 0px
+}
+.white-bg{
+    height: 100%;
+    background: url('/images/sun-tornado.svg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.app-navbar-head-logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.main-page-title
+{
+    color:#fff;
+    font-size: 60px;
+}
+.telegram-subtitle{
+    margin-bottom: 5px;
+    line-height: 15px;
+    color: #999;
+}
+.telegram-title{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+.media-block{
+    margin-left: 60px;
+}
+#ad-block{
+    position: fixed;
+    left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 20px;
+    bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    -webkit-backdrop-filter: blur(15px);
+}
+.close-ad-block{
+    color: #ccc;
+    float:  right;
+}
+.close-big-ad-block{
+    margin: 10px;
+    font-size: 25px;
+    color: #ccc;
+    float:  right;
+}
+.ad-dark-background{
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.40);
+}
+.ad-box{
+    bottom:  unset !important;
+    height: 100%;
+    max-height: 700px;
+    width: 100%;
+    max-width: 530px;
+    margin: 0;
+    position: fixed !important;
+    top: 50%;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding: 0px;
+}
+.ad-box-dark-background{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.50);
+    border-radius: 10px
+}
+.ad-content-block{
+    height: 130px;
+    bottom: -1px;
+    border-radius: 0 0 10px 10px;
+    position: fixed;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    -webkit-backdrop-filter: blur(15px);
+}
+.ad-content-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+.big-ad-title{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    position: absolute;
+    bottom: 150px;
+    line-height: 35px;
+}
+.appscloud-block{
+    position: relative;
+    top: -10px;
+    border-radius: 10px;
+    box-shadow: rgba(65, 194, 255, 0.3) 0px 5px 25px;
+}
+.btn-success {
+    padding: 3px 10px;
+    border-radius: 10px !important;
+    background: #00a072;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+}
+.install-btn {
+    height: 50px;
+    background: #fff0;
+    border-radius: 25px;
+    font-size: 22;
+    color: #0c0d0c;
+    border: 3px solid #000000;
+    width: 200px;
+}
+.install-btn-text{
+	font-size: 12px;
+    color: #1c2d2b;
+}
+.btn-info.active,.btn-info.active.focus,.btn-info.active:focus,.btn-info.active:hover,.btn-info.focus,.btn-info:active,.btn-info:active.focus,.btn-info:active:focus,.btn-info:active:hover,.btn-info:focus,.btn-info:hover,.open>.dropdown-toggle.btn-info,.open>.dropdown-toggle.btn-info.focus,.open>.dropdown-toggle.btn-info:focus,.open>.dropdown-toggle.btn-info:hover {
+    color: #ffffff;
+    background-color: #0075ff;
+    border-color: transparent
+}
+.more-info {
+    padding: 10px 20px 10px 20px;
+    color: #0091ff;
+    position: relative;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    width: -webkit-fill-available;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.ios-icon {
+    border-radius:24%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 10px;
+    width: 78px;
+    height: 78px;
+    float: left;
+    border-radius: 10px;
+}
+.telegram-btn{
+    float: left;
+    font-size: 15px;
+}
+.app-box {
+    background-color: #fff;
+    border: unset;
+    padding: 10px 0;
+}
+
+.breathing {
+    -webkit-animation: breathing 3s ease-out infinite normal;
+    animation: breathing 3s ease-out infinite normal;
+}
+
+@-webkit-keyframes breathing {
+    0% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    25% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    60% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    100% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+@keyframes breathing {
+    0% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    25% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+    60% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    100% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+
+
+.close-button {
+    position: absolute;
+    left: 20px;
+    top: 16px;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    height: 24px;
+    width: 24px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 50%;
+    cursor: pointer
+}
+
+.iphone-image-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    width: 100%
+}
+
+.close-button:hover {
+    border-color: rgba(0,0,0,.6)
+}
+
+.fake-homescreen {
+    background-image: linear-gradient(200deg, #78e5ff 0%, #5bbcff 50%, #e2a2ff 100%);
+    background-size: 100% 283px;
+    background-repeat: no-repeat;
+}
+.iphone-display {
+    position: relative;
+    width: 210px;
+    height: 183px;
+    margin-top: 37px;
+}
+
+.fake-homescreen-app-name {
+    margin-top: 2px;
+    color: #fff;
+    width: 50px;
+    text-align: center;
+    font-size: 8px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.fake-homescreen {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    width: 100%
+}
+.installing-close-button {
+    position: absolute;
+    left: 20px;
+    top: 16px
+}
+
+.app-icon-area {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 14px;
+    top: 43px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.app-icon-region {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex
+}
+
+p {
+    margin: 0 0 10px!important;
+}
+
+#app-caption-title {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.app-modal-icon {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    border-radius: 25%;
+    border-radius: 20%;
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    vertical-align: top
+}
+
+@media screen and (max-width: 480px){
+    .btn-install {
+        float: none;
+    }
+    .app-version {
+        float: none;
+    }
+}
